@@ -17,24 +17,32 @@
       <h3 class="text-center mb-4">Register</h3>
       <form>
         <div class="mb-3">
-          <label for="username" class="form-label">Fristname</label>
-          <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+          <label for="username" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="username" required>
         </div>
         <div class="mb-3">
-          <label for="username" class="form-label">Surname</label>
-          <input type="text" class="form-control" id="username" placeholder="Enter surname" required>
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" required>
         </div>
         <div class="mb-3">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+          <label for="tel" class="form-label">Phone Number</label>
+          <input type="password" class="form-control" id="password" required>
         </div>
         <div class="mb-3">
-          <label for="tel" class="form-label">Tel</label>
-          <input type="password" class="form-control" id="password" placeholder="Enter tel" required>
-        </div>
-        <button type="submit" class="btn btn-primary w-100">Login</button>
+        <label for="username" class="form-label">Select Course</label>
+        <select class="form-select" id="floatingSelect">
+        <option value="1">Course1</option>
+        <option value="2">Course2</option>
+        <option value="3">Course3</option>
+        <option value="4">Course4</option>
+        <option value="5">Course5</option>
+        <option value="6">Course6</option>
+        </select>  
+  </div>
+
+        <button type="submit" class="btn btn-primary w-100">Register</button>
         <div class="text-center mt-3">
-          <small><a href="#">Forgot Password?</a></small>
+          
         </div>
       </form>
     </div>
